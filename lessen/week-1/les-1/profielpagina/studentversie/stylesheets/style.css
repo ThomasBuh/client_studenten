@@ -67,6 +67,14 @@
     margin-top: 0px;
     font-size: 14px;
 }
+.profile-content__skill-list{ 
+    padding: 0;
+    margin: 0; 
+}
+.profile-content__skill-list_item{
+    padding: 0;
+    margin: 0; 
+}
 
 @media only screen and (min-width: 800px) {
 
@@ -105,6 +113,63 @@
 
 }
 
+/*Cookies*/
+.gdpr-consent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid gray;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+}
+
+.gdpr-consent__description{
+    display: flex;
+    justify-content: center;
+}
+
+.gdpr-consent__choice{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.gdpr-consent__button--accept {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(119, 119, 119);
+}
+
+.gdpr-consent__button--accept:hover {
+    background-color: rgb(119, 119, 119);
+    color: white;
+}
+
+.gdpr-consent__button--reject {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(119, 119, 119);
+}
+
+.gdpr-consent__button--reject:hover {
+    background-color: rgb(119, 119, 119);
+    color: white;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
 
 /*student uitwerking*/
 
